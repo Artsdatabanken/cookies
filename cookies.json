@@ -1,0 +1,147 @@
+{
+  "_ga": {
+    "navn": "_ga",
+    "klassifisering": "statistikk",
+    "varighet": "1 år",
+    "beskrivelse": "Brukes av Google for å identifisere brukere",
+    "applikasjoner": ["artsdatabanken.no", "Rødlista for arter"],
+    "plassering": "Cookies",
+    "databehandler": "Google Analytics"
+  },
+  "_ga-old": {
+    "navn": "_ga",
+    "klassifisering": "statistikk",
+    "varighet": "2 år",
+    "beskrivelse": "Brukes av Google for å identifisere brukere - eldre versjon",
+    "applikasjoner": ["NiN-kart", "Artsobservasjoner"],
+    "plassering": "Cookies",
+    "databehandler": "Google Analytics"
+  },
+  "_gat": {
+    "navn": "_gat",
+    "klassifisering": "statistikk",
+    "varighet": "1 min",
+    "beskrivelse": "Used to throttle request rate.",
+    "applikasjoner": [
+      "artsdatabanken.no",
+      "Rødlista for arter",
+      "NiN-kart",
+      "Artsobservasjoner"
+    ],
+    "plassering": "Cookies",
+    "databehandler": "Google Analytics"
+  },
+  "_gat_gtag_": {
+    "navn": "_gat_gtag_ ...+",
+    "klassifisering": "statistikk",
+    "varighet": "1 min",
+    "beskrivelse": "Used to throttle request rate.",
+    "applikasjoner": ["artsdatabanken.no"],
+    "plassering": "Cookies",
+    "databehandler": "Google Analytics"
+  },
+  "_gid": {
+    "navn": "_gid",
+    "klassifisering": "statistikk",
+    "varighet": "24 timer",
+    "beskrivelse": "Brukes av Google for å identifisere brukere - eldre versjon",
+    "applikasjoner": [
+      "artsdatabanken.no",
+      "Rødlista for arter",
+      "NiN-kart",
+      "Artsobservasjoner"
+    ],
+    "plassering": "Cookies",
+    "databehandler": "Google Analytics"
+  },
+  "HeyCookie": {
+    "navn": "HeyCookie",
+    "klassifisering": "preferanse",
+    "varighet": "-",
+    "beskrivelse": "Husker om du har akseptert cookies. På vei ut. Byttes ut med acceptedstorage",
+    "applikasjoner": ["artsdatabanken.no"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "acceptedstorage": {
+    "navn": "acceptedstorage",
+    "klassifisering": "preferanse",
+    "varighet": "1 år",
+    "beskrivelse": "Husker at du har akseptert cookies. Skal revideres for å huske klassifiseringsakseptanse.",
+    "applikasjoner": ["artsdatabanken.no"],
+    "plassering": "Cookies",
+    "databehandler": "Artsdatabanken"
+  },
+  "acceptedstorage-session": {
+    "navn": "acceptedstorage",
+    "klassifisering": "preferanse",
+    "varighet": "session",
+    "beskrivelse": "Husker at du har takket nei til cookies denne sessionen",
+    "applikasjoner": ["artsdatabanken.no"],
+    "plassering": "Sessionstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "theme": {
+    "navn": "theme",
+    "klassifisering": "preferanse",
+    "varighet": "1 år",
+    "beskrivelse": "Valg av høykontrastvisning og nattmodus ",
+    "applikasjoner": ["Rødlista for arter"],
+    "plassering": "Cookies",
+    "databehandler": "Artsdatabanken"
+  },
+  "ASP.NET_SessionId": {
+    "navn": "ASP.NET_SessionId",
+    "klassifisering": "nødvendig",
+    "varighet": "Session",
+    "beskrivelse": "Holder kontroll på enkelte funksjoner som nedlasting av filer, og genereres automatisk av Microsoft ved behov",
+    "applikasjoner": ["artsdatabanken.no"],
+    "plassering": "Cookies",
+    "databehandler": "Microsoft"
+  },
+  "visHovedmeny": {
+    "navn": "visHovedmeny",
+    "klassifisering": "nødvendig",
+    "varighet": "-",
+    "beskrivelse": "Åpne og lukke meny. På vei ut.",
+    "applikasjoner": ["NiN-kart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "visSplash": {
+    "navn": "visSplash",
+    "klassifisering": "nødvendig",
+    "varighet": "-",
+    "beskrivelse": "Åpne og lukke splash. På vei ut.",
+    "applikasjoner": ["NiN-kart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "visAktiveLag": {
+    "navn": "visAktiveLag",
+    "klassifisering": "nødvendig",
+    "varighet": "-",
+    "beskrivelse": "Åpne og lukke aktive lag-menyen. På vei ut.",
+    "applikasjoner": ["NiN-kart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "sorterPåKode ": {
+    "navn": "sorterPåKode ",
+    "klassifisering": "preferanse",
+    "varighet": "-",
+    "beskrivelse": "Om brukeren ønsker sortering etter norske navn eller NiN-koder",
+    "applikasjoner": ["NiN-kart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "visKoder ": {
+    "navn": "visKoder ",
+    "klassifisering": "preferanse",
+    "varighet": "-",
+    "beskrivelse": "Om brukeren ønsker å se NiN-koder.",
+    "applikasjoner": ["NiN-kart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  }
+}
