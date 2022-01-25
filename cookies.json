@@ -54,6 +54,60 @@
     "plassering": "Cookies",
     "databehandler": "Google Analytics"
   },
+  "login_idle_session_timeout": {
+    "navn": "login_idle_session_timeout",
+    "klassifisering": "statistikk",
+    "varighet": "1 dag",
+    "beskrivelse": "-",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookies",
+    "databehandler": "NewRelic"
+  },
+  "TessenSessionId": {
+    "navn": "TessenSessionId",
+    "klassifisering": "statistikk",
+    "varighet": "Session",
+    "beskrivelse": "-",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Session",
+    "databehandler": "NewRelic"
+  },
+  "nr_zd_logged_in": {
+    "navn": "nr_zd_logged_in",
+    "klassifisering": "statistikk",
+    "varighet": "Session",
+    "beskrivelse": "-",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Session",
+    "databehandler": "NewRelic"
+  },
+  "login_service_login_newrelic_com_tokens": {
+    "navn": "login_service_login_newrelic_com_tokens",
+    "klassifisering": "statistikk",
+    "varighet": "Session",
+    "beskrivelse": "-",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Session",
+    "databehandler": "NewRelic"
+  },
+  "optimizelyEndUserId": {
+    "navn": "optimizelyEndUserId",
+    "klassifisering": "statistikk",
+    "varighet": "180 dager",
+    "beskrivelse": "-",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "NewRelic"
+  },
+  "TSNGUID": {
+    "navn": "TSNGUID",
+    "klassifisering": "statistikk",
+    "varighet": "1 år",
+    "beskrivelse": "-",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "NewRelic"
+  },
   "HeyCookie": {
     "navn": "HeyCookie",
     "klassifisering": "preferanse",
@@ -141,6 +195,276 @@
     "varighet": "-",
     "beskrivelse": "Om brukeren ønsker å se NiN-koder.",
     "applikasjoner": ["NiN-kart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "TempUserId": {
+    "navn": "TempUserId",
+    "klassifisering": "Strictly necessary",
+    "varighet": "30 dager",
+    "beskrivelse": "Støtter nettstedets tekniske funksjoner.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "ReleaseNumber": {
+    "navn": "ReleaseNumber",
+    "klassifisering": "Preferences cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Støtter nettstedets tekniske funksjoner. Når nettstedet oppdateres til nyere versjon, tømmes hurtiglager og informasjonskapsler.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "AcceptCookies": {
+    "navn": "AcceptCookies",
+    "klassifisering": "Preferences cookies",
+    "varighet": "1 år",
+    "beskrivelse": "For å lagre brukerinnstillinger (godtatt informasjonskapsler på nettstedet).",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "__RequestVerificationToken": {
+    "navn": "__RequestVerificationToken",
+    "klassifisering": "Strictly necessary cookies.",
+    "varighet": "Session",
+    "beskrivelse": "Støtter nettstedets tekniske funksjoner.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Session",
+    "databehandler": "Artsdatabanken"
+  },
+  ".ASPXAUTHNO": {
+    "navn": ".ASPXAUTHNO",
+    "klassifisering": "Strictly necessary cookies.",
+    "varighet": "Session",
+    "beskrivelse": "Støtter nettstedets tekniske funksjoner.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Session",
+    "databehandler": "Artsdatabanken"
+  },
+  "CurrentRole": {
+    "navn": "CurrentRole",
+    "klassifisering": "Strictly necessary cookies.",
+    "varighet": "Session",
+    "beskrivelse": "Støtter nettstedets tekniske funksjoner.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Session",
+    "databehandler": "Artsdatabanken"
+  },
+  "Culture": {
+    "navn": "Culture",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "For å lagre visningsspråk på nettstedet.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "SpeciesNamesLanguage": {
+    "navn": "SpeciesNamesLanguage",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Språkpreferanse for artsnavn.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "SpeciesGroup": {
+    "navn": "SpeciesGroup",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Brukerinnstilling for foretrukket artsgruppe.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "LastGlobalSystemInformationMessage": {
+    "navn": "LastGlobalSystemInformationMessage",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Brukervalg for visning av driftsmelding.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "todayssightingtemplate": {
+    "navn": "todayssightingtemplate",
+    "klassifisering": "Preference cookies",
+    "varighet": "1 år",
+    "beskrivelse": "Brukerinnstilling for visning av dagens funn.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "todayssightingpagesize": {
+    "navn": "todayssightingpagesize",
+    "klassifisering": "Preference cookies",
+    "varighet": "1 år",
+    "beskrivelse": "Brukerinnstilling for antall funn pr. side på dagens funn.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "galleryview": {
+    "navn": "galleryview",
+    "klassifisering": "Preference cookies",
+    "varighet": "1 år",
+    "beskrivelse": "Brukerinnstilling for gallerivisning.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "SelectedFieldDiaryDate": {
+    "navn": "SelectedFieldDiaryDate",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Lagrer sist valgt dato på feltdagbok.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "MapExtent": {
+    "navn": "MapExtent",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Kartvisning (lagrer siste viste kartutstrekning).",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "SelectedBaseLayer": {
+    "navn": "SelectedBaseLayer",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Kartvisning (lagrer valgt bakgrunnskart).",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "SelectedSiteId": {
+    "navn": "SelectedSiteId",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Lagrer sist valgt lokalitet på rapporteringsskjema.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "SelectedEndDate": {
+    "navn": "SelectedEndDate",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Lagrer valgt startdato på rapporteringsskjema.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "SelectedProjectId": {
+    "navn": "SelectedProjectId",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Lagrer valgt prosjekt på Rapporteringsskjema.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "DontShowSubspecies": {
+    "navn": "DontShowSubspecies",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Brukerinnstilling på artsliste.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "ExcludeHybrids": {
+    "navn": "ExcludeHybrids",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Brukerinnstilling på artsliste.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "ShowUnreportedSpecies": {
+    "navn": "ShowUnreportedSpecies",
+    "klassifisering": "Preference cookies",
+    "varighet": "30 dager",
+    "beskrivelse": "Brukerinnstilling på artsliste.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "artsobsmobile": {
+    "navn": "artsobsmobile",
+    "klassifisering": "Preference cookies",
+    "varighet": "1 år",
+    "beskrivelse": "Husk valg for mobilvisning.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "UseHistoricAreas": {
+    "navn": "UseHistoricAreas",
+    "klassifisering": "Preference cookies",
+    "varighet": "1 år",
+    "beskrivelse": "Brukerinnstilling på mine lister.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "hidescientificnamesinfielddiary": {
+    "navn": "UseHistoricAreas",
+    "klassifisering": "Preference cookies",
+    "varighet": "1 år",
+    "beskrivelse": "Brukerinnstilling på min feltdagbok.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Cookie",
+    "databehandler": "Artsdatabanken"
+  },
+  "Brukeralias-AjaxNotificationCounters": {
+    "navn": "Brukeralias-AjaxNotificationCounters",
+    "klassifisering": "Preference cookies",
+    "varighet": "Evig tid",
+    "beskrivelse": "Brukermeldinger.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "lastStartDate": {
+    "navn": "lastStartDate",
+    "klassifisering": "Preference cookies",
+    "varighet": "Evig tid",
+    "beskrivelse": "Rapporteringsskjema startdato.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "lastStartTime": {
+    "navn": "lastStartTime",
+    "klassifisering": "Preference cookies",
+    "varighet": "Evig tid",
+    "beskrivelse": "Rapporteringsskjema starttidspunkt.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "lastEndDate": {
+    "navn": "lastEndDate",
+    "klassifisering": "Preference cookies",
+    "varighet": "Evig tid",
+    "beskrivelse": "Rapporteringsskjema sluttdato.",
+    "applikasjoner": ["Artsobservasjoner"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "lastEndTime": {
+    "navn": "lastEndTime",
+    "klassifisering": "Preference cookies",
+    "varighet": "Evig tid",
+    "beskrivelse": "Rapporteringsskjema sluttidspunkt.",
+    "applikasjoner": ["Artsobservasjoner"],
     "plassering": "Localstorage",
     "databehandler": "Artsdatabanken"
   }
