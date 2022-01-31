@@ -56,7 +56,7 @@
   },
   "activeLayers": {
     "navn": "activeLayers",
-    "klassifisering": "funksjonalitet",
+    "klassifisering": "preferansevalg",
     "varighet": "-",
     "beskrivelse": "Brukes for å huske kartlag.",
     "applikasjoner": ["Artskart"],
@@ -65,7 +65,7 @@
   },
   "ADB/artskart bookmarks": {
     "navn": "ADB/artskart bookmarks",
-    "klassifisering": "funksjonalitet",
+    "klassifisering": "preferansevalg",
     "varighet": "-",
     "beskrivelse": "Brukes for å bokmerke utvalg i kartet.",
     "applikasjoner": ["Artskart"],
@@ -74,7 +74,7 @@
   },
   "ADB/artskart exportStatuses": {
     "navn": "ADB/artskart exportStatuses",
-    "klassifisering": "funksjonalitet",
+    "klassifisering": "nødvendig",
     "varighet": "-",
     "beskrivelse": "Brukes for å huske status på eksportjobber.",
     "applikasjoner": ["Artskart"],
@@ -83,7 +83,7 @@
   },
   "ADB/artskart ND token": {
     "navn": "ADB/artskart ND token",
-    "klassifisering": "funksjonalitet",
+    "klassifisering": "nødvendig",
     "varighet": "-",
     "beskrivelse": "Brukes for å gi tilgang på enkelte kartlag.",
     "applikasjoner": ["Artskart"],
@@ -92,7 +92,7 @@
   },
   "ADB/notificationLoginEmail": {
     "navn": "ADB/notificationLoginEmail",
-    "klassifisering": "funksjonalitet",
+    "klassifisering": "nødvendig",
     "varighet": "-",
     "beskrivelse": "Brukes for å huske eposten din for tidlig varsling.",
     "applikasjoner": ["Artskart"],
@@ -101,7 +101,7 @@
   },
   "ADB/notificationSessionKey": {
     "navn": "ADB/notificationSessionKey",
-    "klassifisering": "funksjonalitet",
+    "klassifisering": "nødvendig",
     "varighet": "-",
     "beskrivelse": "Brukes for å verifisere deg som eier av eposten til tidlig varsling.",
     "applikasjoner": ["Artskart"],
@@ -155,7 +155,7 @@
   },
   "baseLayer": {
     "navn": "baseLayer",
-    "klassifisering": "funksjonalitet",
+    "klassifisering": "preferansevalg",
     "varighet": "-",
     "beskrivelse": "Brukes for å huske kartlaget.",
     "applikasjoner": ["Artskart"],
@@ -173,7 +173,7 @@
   },
   "language": {
     "navn": "language",
-    "klassifisering": "funksjonalitet",
+    "klassifisering": "preferansevalg",
     "varighet": "-",
     "beskrivelse": "Brukes for å huske brukerens aktive språkvalg.",
     "applikasjoner": ["Artskart"],
@@ -191,7 +191,7 @@
   },
   "showPopNames": {
     "navn": "showPopNames",
-    "klassifisering": "funksjonalitet",
+    "klassifisering": "preferansevalg",
     "varighet": "-",
     "beskrivelse": "Husker valget om man vil se vitenskapelig eller populærnavn i trevisningen i venstremenyen.",
     "applikasjoner": ["Artskart"],
@@ -236,7 +236,7 @@
   },
   "treeLanguage": {
     "navn": "treeLanguage",
-    "klassifisering": "funksjonalitet",
+    "klassifisering": "preferansevalg",
     "varighet": "-",
     "beskrivelse": "Brukes for å huske språkvalg i artstreet i søkefanen.",
     "applikasjoner": ["Artskart"],
