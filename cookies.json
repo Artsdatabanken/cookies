@@ -54,6 +54,132 @@
     "plassering": "Cookies",
     "databehandler": "Google Analytics"
   },
+  "activeLayers": {
+    "navn": "activeLayers",
+    "klassifisering": "preferansevalg",
+    "varighet": "-",
+    "beskrivelse": "Brukes for å huske kartlag.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "ADB/artskart_bookmarks": {
+    "navn": "ADB/artskart bookmarks",
+    "klassifisering": "preferansevalg",
+    "varighet": "-",
+    "beskrivelse": "Brukes for å bokmerke utvalg i kartet.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "ADB/artskart_exportStatuses": {
+    "navn": "ADB/artskart exportStatuses",
+    "klassifisering": "nødvendig",
+    "varighet": "-",
+    "beskrivelse": "Brukes for å huske status på eksportjobber.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "ADB/artskart_ND_token": {
+    "navn": "ADB/artskart ND token",
+    "klassifisering": "nødvendig",
+    "varighet": "-",
+    "beskrivelse": "Brukes for å gi tilgang på enkelte kartlag.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "ADB/notificationLoginEmail": {
+    "navn": "ADB/notificationLoginEmail",
+    "klassifisering": "nødvendig",
+    "varighet": "-",
+    "beskrivelse": "Brukes for å huske eposten din for tidlig varsling.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "ADB/notificationSessionKey": {
+    "navn": "ADB/notificationSessionKey",
+    "klassifisering": "nødvendig",
+    "varighet": "-",
+    "beskrivelse": "Brukes for å verifisere deg som eier av eposten til tidlig varsling.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
+  },
+  "AI_buffer": {
+    "navn": "AI_buffer",
+    "klassifisering": "statistikk",
+    "varighet": "1 økt",
+    "beskrivelse": "Brukes for å huske hendelser på nettsiden.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Sessionstorage",
+    "databehandler": "Microsoft"
+  },
+  "AI_sentBuffer": {
+    "navn": "AI_sentBuffer",
+    "klassifisering": "statistikk",
+    "varighet": "1 økt",
+    "beskrivelse": "Brukes for å huske sendte hendelser fra 'AI_buffer' som ikke enda er mottatt.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Sessionstorage",
+    "databehandler": "Microsoft"
+  },
+  "ai_session": {
+    "navn": "ai_session",
+    "klassifisering": "statistikk",
+    "varighet": "30 min",
+    "beskrivelse": "Brukes for å identifisere en økt.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Cookies",
+    "databehandler": "Microsoft"
+  },
+  "ai_session2": {
+    "navn": "ai_session",
+    "klassifisering": "statistikk",
+    "varighet": "-",
+    "beskrivelse": "Brukes for å identifisere en økt.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Localstorage",
+    "databehandler": "Microsoft"
+  },
+  "ai_user": {
+    "navn": "ai_user",
+    "klassifisering": "statistikk",
+    "varighet": "1 år",
+    "beskrivelse": "Brukes for å identifisere en unik bruker.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Cookies",
+    "databehandler": "Microsoft"
+  },
+  "baseLayer": {
+    "navn": "baseLayer",
+    "klassifisering": "preferansevalg",
+    "varighet": "-",
+    "beskrivelse": "Brukes for å huske kartlaget.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Cookies",
+    "databehandler": "Artsdatabanken"
+  },
+  "cookieWarning": {
+    "navn": "cookieWarning",
+    "klassifisering": "nødvendig",
+    "varighet": "1 år",
+    "beskrivelse": "Brukes for å huske at brukeren har godtatt cookie policyen.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Cookies",
+    "databehandler": "Artsdatabanken"
+  },
+  "language": {
+    "navn": "language",
+    "klassifisering": "preferansevalg",
+    "varighet": "-",
+    "beskrivelse": "Brukes for å huske brukerens aktive språkvalg.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "localStorage",
+    "databehandler": "Artsdatabanken"
+  },
   "login_idle_session_timeout": {
     "navn": "login_idle_session_timeout",
     "klassifisering": "statistikk",
@@ -62,6 +188,15 @@
     "applikasjoner": ["Artsobservasjoner"],
     "plassering": "Cookies",
     "databehandler": "NewRelic"
+  },
+  "showPopNames": {
+    "navn": "showPopNames",
+    "klassifisering": "preferansevalg",
+    "varighet": "-",
+    "beskrivelse": "Husker valget om man vil se vitenskapelig eller populærnavn i trevisningen i venstremenyen.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
   },
   "TessenSessionId": {
     "navn": "TessenSessionId",
@@ -98,6 +233,15 @@
     "applikasjoner": ["Artsobservasjoner"],
     "plassering": "Cookie",
     "databehandler": "NewRelic"
+  },
+  "treeLanguage": {
+    "navn": "treeLanguage",
+    "klassifisering": "preferansevalg",
+    "varighet": "-",
+    "beskrivelse": "Brukes for å huske språkvalg i artstreet i søkefanen.",
+    "applikasjoner": ["Artskart"],
+    "plassering": "Localstorage",
+    "databehandler": "Artsdatabanken"
   },
   "TSNGUID": {
     "navn": "TSNGUID",
