@@ -63,7 +63,7 @@
     "plassering": "Localstorage",
     "databehandler": "Artsdatabanken"
   },
-  "ADB/artskart bookmarks": {
+  "ADB/artskart_bookmarks": {
     "navn": "ADB/artskart bookmarks",
     "klassifisering": "preferansevalg",
     "varighet": "-",
@@ -72,7 +72,7 @@
     "plassering": "Localstorage",
     "databehandler": "Artsdatabanken"
   },
-  "ADB/artskart exportStatuses": {
+  "ADB/artskart_exportStatuses": {
     "navn": "ADB/artskart exportStatuses",
     "klassifisering": "nødvendig",
     "varighet": "-",
@@ -81,7 +81,7 @@
     "plassering": "Localstorage",
     "databehandler": "Artsdatabanken"
   },
-  "ADB/artskart ND token": {
+  "ADB/artskart_ND_token": {
     "navn": "ADB/artskart ND token",
     "klassifisering": "nødvendig",
     "varighet": "-",
