@@ -1,0 +1,26 @@
+{
+  "Rødlista for arter": {
+    "tittel": "Norsk rødliste for arter 2021",
+    "url": "https://artsdatabanken.no/lister/rodlisteforarter/2021?Area=N",
+    "ikon": "https://design.artsdatabanken.no/list-icons/rl2021-icon-small.png"
+  },
+  "artsdatabanken.no": {
+    "tittel": "artsdatabanken.no",
+    "url": "https://artsdatabanken.no/"
+  },
+  "NiN-kart": {
+    "tittel": "NiN-kart",
+    "url": "https://nin.artsdatabanken.no/",
+    "ikonurl": "https://nin.artsdatabanken.no/logoer/small_icon_two_blue.png"
+  },
+  "Artsobservasjoner": {
+    "tittel": "Artsobservasjoner",
+    "url": "https://www.artsobservasjoner.no/",
+    "ikon": "https://www.artsobservasjoner.no/Content/Images/Header/lunne-norge-fri.png"
+  },
+  "Artskart": {
+    "tittel": "Arskart",
+    "url": "https://artskart.artsdatabanken.no/app/",
+    "ikonurl": "https://artskart.artsdatabanken.no/app/favicon.ico"
+  }
+}
