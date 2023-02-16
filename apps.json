@@ -23,5 +23,10 @@
     "tittel": "Artskart",
     "url": "https://artskart.artsdatabanken.no/app/",
     "iconurl": "https://artskart.artsdatabanken.no/app/favicon.ico"
+  },  
+  "Fremmedartslista 2023 - innsyn": {
+    "tittel": "Fremmedartslista 2023 - innsyn",
+    "url": "https://artsdatabanken.no/lister/fremmedartslista/2023",
+    "iconurl": "https://design.artsdatabanken.no/list-icons/FA.png"
   }
 }

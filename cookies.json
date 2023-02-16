@@ -611,5 +611,14 @@
     "applikasjoner": ["Artsobservasjoner"],
     "plassering": "Localstorage",
     "databehandler": "Artsdatabanken"
+  },  
+   "FeedbackValidation": {
+    "navn": "FeedbackValidation",
+    "klassifisering": "Preferences cookies",
+    "varighet": "1 måned",
+    "beskrivelse": "Brukes for å validere og huske brukeren som skal gi tilbakemelding under innsynet",
+    "applikasjoner": ["Fremmedartslista 2023 - innsyn"],
+    "plassering": "Cookies",
+    "databehandler": "Artsdatabanken"
   }
 }
