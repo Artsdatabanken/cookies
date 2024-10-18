@@ -1,4 +1,67 @@
 {
+  "_clck": {
+    "navn": "_clck",
+    "klassifisering": "statistikk",
+    "varighet": "1 år",
+    "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Persists the Clarity User ID and preferences, unique to that site is attributed to the same user ID.",
+    "applikasjoner": ["artsdatabanken.no", "Rødlista for arter","Artskart","Fremmedartslista"],
+    "plassering": "Cookies",
+    "databehandler": "Microsoft Clarity"
+  },  
+  "_clsk": {
+    "navn": "_clck",
+    "klassifisering": "statistikk",
+    "varighet": "1 dag",
+    "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Connects multiple page views by a user into a single Clarity session recording.",
+    "applikasjoner": ["artsdatabanken.no", "Rødlista for arter","Artskart","Fremmedartslista"],
+    "plassering": "Cookies",
+    "databehandler": "Microsoft Clarity"
+  },  
+  "CLID": {
+    "navn": "_clck",
+    "klassifisering": "statistikk",
+    "varighet": "1 år",
+    "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Identifies the first-time Clarity saw this user on any site using Clarity.",
+    "applikasjoner": ["artsdatabanken.no", "Rødlista for arter","Artskart","Fremmedartslista"],
+    "plassering": "Cookies",
+    "databehandler": "Microsoft Clarity"
+  },  
+  "ANONCHK": {
+    "navn": "_clck",
+    "klassifisering": "statistikk",
+    "varighet": "1 år",
+    "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Indicates whether MUID is transferred to ANID, a cookie used for advertising. Clarity doesn't use ANID and so this is always set to 0.",
+    "applikasjoner": ["artsdatabanken.no", "Rødlista for arter","Artskart","Fremmedartslista"],
+    "plassering": "Cookies",
+    "databehandler": "Microsoft Clarity"
+  },  
+  "MR": {
+    "navn": "_clck",
+    "klassifisering": "statistikk",
+    "varighet": "1 år",
+    "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Indicates whether to refresh MUID.",
+    "applikasjoner": ["artsdatabanken.no", "Rødlista for arter","Artskart","Fremmedartslista"],
+    "plassering": "Cookies",
+    "databehandler": "Microsoft Clarity"
+  },  
+  "MUID": {
+    "navn": "_clck",
+    "klassifisering": "statistikk",
+    "varighet": "1 år",
+    "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes.",
+    "applikasjoner": ["artsdatabanken.no", "Rødlista for arter","Artskart","Fremmedartslista"],
+    "plassering": "Cookies",
+    "databehandler": "Microsoft Clarity"
+  },  
+  "SM": {
+    "navn": "_clck",
+    "klassifisering": "statistikk",
+    "varighet": "1 år",
+    "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Used in synchronizing the MUID across Microsoft domains.",
+    "applikasjoner": ["artsdatabanken.no", "Rødlista for arter","Artskart","Fremmedartslista"],
+    "plassering": "Cookies",
+    "databehandler": "Microsoft Clarity"
+  },
   "_ga": {
     "navn": "_ga",
     "klassifisering": "statistikk",
@@ -180,15 +243,6 @@
     "plassering": "localStorage",
     "databehandler": "Artsdatabanken"
   },
-  "login_idle_session_timeout": {
-    "navn": "login_idle_session_timeout",
-    "klassifisering": "statistikk",
-    "varighet": "1 dag",
-    "beskrivelse": "-",
-    "applikasjoner": ["Artsobservasjoner"],
-    "plassering": "Cookies",
-    "databehandler": "NewRelic"
-  },
   "showPopNames": {
     "navn": "showPopNames",
     "klassifisering": "preferansevalg",
@@ -198,42 +252,6 @@
     "plassering": "Localstorage",
     "databehandler": "Artsdatabanken"
   },
-  "TessenSessionId": {
-    "navn": "TessenSessionId",
-    "klassifisering": "statistikk",
-    "varighet": "Session",
-    "beskrivelse": "-",
-    "applikasjoner": ["Artsobservasjoner"],
-    "plassering": "Session",
-    "databehandler": "NewRelic"
-  },
-  "nr_zd_logged_in": {
-    "navn": "nr_zd_logged_in",
-    "klassifisering": "statistikk",
-    "varighet": "Session",
-    "beskrivelse": "-",
-    "applikasjoner": ["Artsobservasjoner"],
-    "plassering": "Session",
-    "databehandler": "NewRelic"
-  },
-  "login_service_login_newrelic_com_tokens": {
-    "navn": "login_service_login_newrelic_com_tokens",
-    "klassifisering": "statistikk",
-    "varighet": "Session",
-    "beskrivelse": "-",
-    "applikasjoner": ["Artsobservasjoner"],
-    "plassering": "Session",
-    "databehandler": "NewRelic"
-  },
-  "optimizelyEndUserId": {
-    "navn": "optimizelyEndUserId",
-    "klassifisering": "statistikk",
-    "varighet": "180 dager",
-    "beskrivelse": "-",
-    "applikasjoner": ["Artsobservasjoner"],
-    "plassering": "Cookie",
-    "databehandler": "NewRelic"
-  },
   "treeLanguage": {
     "navn": "treeLanguage",
     "klassifisering": "preferansevalg",
@@ -242,15 +260,6 @@
     "applikasjoner": ["Artskart"],
     "plassering": "Localstorage",
     "databehandler": "Artsdatabanken"
-  },
-  "TSNGUID": {
-    "navn": "TSNGUID",
-    "klassifisering": "statistikk",
-    "varighet": "1 år",
-    "beskrivelse": "-",
-    "applikasjoner": ["Artsobservasjoner"],
-    "plassering": "Cookie",
-    "databehandler": "NewRelic"
   },
   "HeyCookie": {
     "navn": "HeyCookie",
@@ -617,7 +626,7 @@
     "klassifisering": "Preferences cookies",
     "varighet": "1 måned",
     "beskrivelse": "Brukes for å validere og huske brukeren som skal gi tilbakemelding under innsynet",
-    "applikasjoner": ["Fremmedartslista 2023 - innsyn"],
+    "applikasjoner": ["Fremmedartslista 2023"],
     "plassering": "Cookies",
     "databehandler": "Artsdatabanken"
   }
