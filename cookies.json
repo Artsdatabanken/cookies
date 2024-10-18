@@ -617,7 +617,7 @@
     "klassifisering": "Preferences cookies",
     "varighet": "1 måned",
     "beskrivelse": "Brukes for å validere og huske brukeren som skal gi tilbakemelding under innsynet",
-    "applikasjoner": ["Fremmedartslista 2023"],
+    "applikasjoner": ["Fremmedartslista"],
     "plassering": "Cookies",
     "databehandler": "Artsdatabanken"
   }
