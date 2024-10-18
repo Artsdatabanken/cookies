@@ -1,13 +1,4 @@
 {
-  "_clck": {
-    "navn": "_clck",
-    "klassifisering": "statistikk",
-    "varighet": "1 år",
-    "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Persists the Clarity User ID and preferences, unique to that site is attributed to the same user ID.",
-    "applikasjoner": ["artsdatabanken.no", "Rødlista for arter","Artskart","Fremmedartslista"],
-    "plassering": "Cookies",
-    "databehandler": "Microsoft Clarity"
-  },  
   "_clsk": {
     "navn": "_clck",
     "klassifisering": "statistikk",
@@ -18,7 +9,7 @@
     "databehandler": "Microsoft Clarity"
   },  
   "CLID": {
-    "navn": "_clck",
+    "navn": "CLID",
     "klassifisering": "statistikk",
     "varighet": "1 år",
     "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Identifies the first-time Clarity saw this user on any site using Clarity.",
@@ -27,7 +18,7 @@
     "databehandler": "Microsoft Clarity"
   },  
   "ANONCHK": {
-    "navn": "_clck",
+    "navn": "ANONCHK",
     "klassifisering": "statistikk",
     "varighet": "1 år",
     "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Indicates whether MUID is transferred to ANID, a cookie used for advertising. Clarity doesn't use ANID and so this is always set to 0.",
@@ -36,7 +27,7 @@
     "databehandler": "Microsoft Clarity"
   },  
   "MR": {
-    "navn": "_clck",
+    "navn": "MR",
     "klassifisering": "statistikk",
     "varighet": "1 år",
     "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Indicates whether to refresh MUID.",
@@ -45,7 +36,7 @@
     "databehandler": "Microsoft Clarity"
   },  
   "MUID": {
-    "navn": "_clck",
+    "navn": "MUID",
     "klassifisering": "statistikk",
     "varighet": "1 år",
     "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes.",
@@ -54,7 +45,7 @@
     "databehandler": "Microsoft Clarity"
   },  
   "SM": {
-    "navn": "_clck",
+    "navn": "SM",
     "klassifisering": "statistikk",
     "varighet": "1 år",
     "beskrivelse": "Brukes av Microsoft Clarity for å identifisere brukere - Used in synchronizing the MUID across Microsoft domains.",
